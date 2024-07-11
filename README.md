@@ -42,12 +42,13 @@ Once the contract is deployed, you can interact with it using the provided funct
    
    (e) Use TotalSupply function to check total supply of the contract.
 
-You can then switch to another address from Account option on the top. copy the address. and perform the same above actions(except minting and getTransactionHistory)
+You can then switch to another address from Account option on the top. copy the address. and perform the same above actions(except minting and getTransactionHistory).
 Note: First transfer some tokens to the other address by the owner address as users who are not owner can't mint their own tokens.
 You can create as many different address as you want from the Account option on the top, to use all the same functionality(non-owner ones).
 
 Then at last you can use getTransactionHistory funtion(owner only) to get all the transaction details(address, value, type, timeline) done by different-different addresses.
-         
+
+Here's the EcoCoin.sol Code:
 
 ```
 // SPDX-License-Identifier: MIT
