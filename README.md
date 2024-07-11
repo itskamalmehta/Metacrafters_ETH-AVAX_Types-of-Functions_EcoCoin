@@ -33,7 +33,7 @@ Follow these steps:
 Once the contract is deployed, you can interact with it using the provided functions:
     
    (a) Copy the owner's address(first one to deploy the contract) from clicking on "copy address" from Account option.
-   (a) Use the mint(owner only) and burn function to mint and burn token.
+   (b) Use the mint(owner only) and burn function to mint and burn token.
    (c) Use the Balance function to view the current balance.
    (d) Transfer funtion to send token to another address.
    (e) Use TotalSupply function to check total supply of the contract.
